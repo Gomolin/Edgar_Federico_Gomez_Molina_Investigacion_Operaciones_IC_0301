@@ -1,0 +1,18 @@
+digraph "main"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="existencia",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$metodos_8c.html#afb2dcbce86b1fd3b9d3839802bbaa815",tooltip="Compra los resultados obtenidos y si son iguales quiere decir que existe un camino."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="findStreet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$metodos_8c.html#aa5d9aab616887a846b09d7e35150a57a",tooltip="findStreet Motor del programa, se encarga de comparar si las coordenadas a buscar tienen un camino pa..."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="impresion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$metodos_8c.html#a70aa74df302eb5f0e07da8c133618619",tooltip="Impresión imprime la matriz de adyasencia del grafo ocupado."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="inicializ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$metodos_8c.html#a00978fca684e1aa84f43cc1c2166b9ca",tooltip="inicializ Inicializa los espacios necesarios para su ejecución de la matriz bidimensional."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="llenado",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$metodos_8c.html#a6f7ecc82a150867f073972c00de19f0b",tooltip="llenado Solicita las adyasencias que hay en el grafo que se esta utilizando."];
+}
